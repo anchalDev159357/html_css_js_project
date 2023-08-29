@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: steelblue;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.436);
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: #fff;
+}
+.container > h1 {
+  text-align: center;
+}
+.btn {
+  width: 100%;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: rgb(20, 148, 198);
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:focus {
+  outline: 0;
+}
+.control-form {
+  position: relative;
+  margin: 30px 0;
+}
+
+.control-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.control-form input:focus,
+.control-form input:valid {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.control-form label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.control-form label span {
+  display: inline-block;
+  font-size: 18px;
+  max-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.control-form input:focus + label span,
+.control-form input:valid + label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
