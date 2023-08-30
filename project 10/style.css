@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgreen;
+}
+
+.container {
+  background-color: #fff;
+  width: 45rem;
+  height: 20rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 5px rgba(46, 32, 32, 0.37);
+  position: relative;
+}
+.container h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  position: relative;
+}
+.joke-text {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  font-size: 1.8rem;
+}
+
+.buttons-container {
+  margin-bottom: 10px;
+  margin-left: 18rem;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: absolute;
+}
+
+.buttons-container > button {
+  background-color: lightblue;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  box-shadow: 0 0.3rem 0.3rem grey;
+  border-radius: 5px;
+}
+button:active {
+  transform: scale(0.98);
+}
