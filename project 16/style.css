@@ -1,0 +1,82 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.darkmode {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #1b1a1a;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  top: 100px;
+  position: absolute;
+  cursor: pointer;
+}
+.darkmode:active {
+  transform: scale(0.99);
+}
+.clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+}
+.niddle {
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 65px;
+  transform-origin: bottom center;
+}
+.niddle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+.niddle.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+}
+.niddle.second {
+  height: 100px;
+  background-color: red;
+  transform: translate(-50%, -100%) rotate(0deg);
+  /* transition: transform 6s ease-out; */
+}
+.centerpoint {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.centerpoint::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
