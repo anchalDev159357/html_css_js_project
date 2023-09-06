@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  background-color: rgb(0, 2, 23);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.changebg{
+    height: 50px;
+    color: #000;
+    background-color: #fff;
+}
+.header > h3 {
+  padding-left: 20%;
+}
+.home {
+  padding-left: 30%;
+  color: rgb(185, 11, 49);
+}
+.changes{
+    color: rgb(10, 145, 193);
+}
+.about {
+  padding-left: 15px;
+}
+.more {
+  padding-left: 15px;
+}
+.contact {
+  padding-left: 15px;
+}
+.bgimg {
+  background: url(https://images.unsplash.com/photo-1667056849526-4bd096328f6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2022&q=80);
+  height: 100vh;
+  filter: blur(0px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.content {
+  font-size: 20px;
+  padding: 30px;
+  height: 60vh;
+}
