@@ -9,47 +9,66 @@
   <body>
     <div class="container">
       <div class="model-btn">
-        <button class="btn msg1">Model Slide 1 &rArr;</button>
-        <button class="btn msg2">Model Slide 2 &rArr;</button>
-        <button class="btn msg3">Model Slide 3 &rArr;</button>
-        <div class="content model1 hidden">
-          <p class="close-btn">&cross;</p>
-          <h3>First Slide Model</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-            provident eveniet libero ratione esse distinctio inventore
-            reprehenderit, ab at illum aperiam, repellat ipsa sint. Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur,
-            molestias eum consequuntur necessitatibus repudiandae soluta esse.
-            Fugit quae nulla quod consequuntur laudantium. Hic, delectus
-            laboriosam natus fuga explicabo dolor!
-          </p>
+        <button id="msg1" class="btn">Html</button>
+        <button id="msg2" class="btn hide-css">CSS</button>
+        <button id="msg3" class="btn hide-js">Javascript</button>
+        <h1 class="welcome">Welcome</h1>
+        <div id="html" class="content hidden">
+          <button id="html-close-btn" class="close-btn">&cross;</button>
+          <h3>HTML (HyperText Markup Language):</h3>
+          <ul class="paragraph">
+            <li>
+              HTML is the backbone of web content. It is a markup language used
+              for structuring the content on a web page.
+            </li>
+            <li>
+              HTML uses tags to define elements like headings, paragraphs,
+              images, links, forms, and more.
+            </li>
+            <li>
+              It provides the structure and semantic meaning of web content,
+              making it accessible and well-organized.
+            </li>
+          </ul>
         </div>
-        <div class="content model2 hidden">
-          <p class="close-btn">&cross;</p>
-          <h3>Second Slide Model</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-            provident eveniet libero ratione esse distinctio inventore
-            reprehenderit, ab at illum aperiam, repellat ipsa Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Dolore ad ullam sapiente
-            officiis, doloremque voluptatem quisquam, nostrum tempore aliquam,
-            eum error. Eligendi quo esse impedit id, ipsum accusamus nobis
-            perspiciatis.
-          </p>
+        <div id="css" class="content hidden">
+          <button id="css-close-btn" class="close-btn">&cross;</button>
+          <h3>CSS (Cascading Style Sheets):</h3>
+          <ul class="paragraph">
+            <li>CSS is used for styling and designing web content.</li>
+            <li>
+              It separates the presentation (how things look) from the structure
+              (what things are) defined by HTML.
+            </li>
+            <li>
+              CSS allows you to control the layout, colors, fonts, spacing, and
+              other visual aspects of your web page.
+            </li>
+            <li>
+              Styles can be applied inline (within HTML tags), in a separate
+              stylesheet, or in the header of an HTML document.
+            </li>
+          </ul>
         </div>
-        <div class="content model3 hidden">
-          <p class="close-btn">&cross;</p>
-          <h3>Third Slide Model</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-            provident eveniet libero ratione esse distinctio inventore
-            reprehenderit, ab at illum aperiam, repellat ipsa sint. Lorem, ipsum
-            dolor sit amet consectetur adipisicing elit. Repellendus eos nemo
-            optio alias suscipit natus explicabo unde! Veniam recusandae saepe
-            architecto pariatur, nihil numquam, reprehenderit ea beatae
-            voluptates voluptate molestias?
-          </p>
+        <div id="js" class="content hidden">
+          <button id="js-close-btn" class="close-btn">&cross;</button>
+          <h3>JavaScript:</h3>
+          <ul class="paragraph">
+            <li>
+              JavaScript is a programming language used for adding interactivity
+              and dynamic behavior to web pages.
+            </li>
+            <li>
+              It can be used to respond to user actions (e.g., clicks, form
+              submissions), manipulate the DOM (Document Object Model), fetch
+              data from servers (AJAX), and create animations, among other
+              things.
+            </li>
+            <li>
+              JavaScript is executed in the browser, making it a crucial tool
+              for creating responsive and interactive web applications.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
