@@ -1,0 +1,34 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+img.twitter {
+  width: 33px;
+  height: 33px;
+}
+.counter-container {
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+  width: 10%;
+}
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+span {
+  font-size: 20px;
+}
