@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}
+.mobile-container {
+  border: 2px gray solid;
+  width: 350px;
+  height: 620px;
+}
+.main-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -15px;
+}
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0.2;
+}
+.profile-details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.subscribers-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  line-height: 0;
+  font-size: small;
+}
+.subscribers-text p {
+  margin-left: 8px;
+  margin-top: -0.4px;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.details-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  border-radius: 50%;
+  border: none;
+  background-color: #848484b0;
+  color: #fff;
+  text-align: center;
+}
+.line {
+  background-color: #000;
+  width: 56px;
+  height: 2px;
+  border-radius: 2px;
+  margin-left: 2px;
+}
+.light-line {
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+}
+.manage-video {
+  width: 190px;
+  height: 30px;
+  border-radius: 10px;
+}
+.posts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -5px;
+}
+img {
+  height: 150px;
+  width: 110px;
+}
+.pic-tag {
+  width: 350px;
+}
+.icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

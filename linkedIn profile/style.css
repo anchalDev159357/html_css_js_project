@@ -3,53 +3,32 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
-  height: 100vh;
-  overflow: hidden;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.linkedin-icon img{
-    width: 170%;
-    height: 200px;
-    margin-left: -70px;
-    margin-top: -10%;
+.mobile-container {
+  width: 350px;
+  height: 600px;
+  border: 2px gray solid;
+  padding: 3px;
 }
-.container {
-  width: 400px;
-}
-.profile img {
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-}
-.profile {
+.main-head {
   display: flex;
-  margin-top: -15%;
+  justify-content: space-around;
+  align-items: center;
 }
-.name {
-  line-height: 0.5;
-  margin-left: 10px;
+.profile-picture {
+  display: flex;
+  justify-content: space-between;
 }
-.talkabout {
-  color: gray;
+.btn{
+  display: flex;justify-content: space-around;
 }
-.followers{
-    margin-top: 40px;
-    color: #0051ff;
-    font-weight: bold;
-}
-button{
-    padding: 8px 16px;
-    background-color: #0051ff;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-.add-section{
-    border: 2px #0051ff solid;
-    background-color: #fff;
-    color: #0051ff;
-}
-.open-to{
-  border: 2px #0051ff solid;
+.opentowork{
+  line-height: 0.2;
+  background-color: lightblue;
+  width: 96%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
 }
