@@ -1,46 +1,63 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://img.freepik.com/free-vector/abstract-pattern-design_1053-534.jpg?w=740&t=st=1697167104~exp=1697167704~hmac=8e3dde6626b6b24bc1a7a7b32b7d9c2e45718c0eec7800a78f1f9480569b8535');
+
 }
 
+.container {
+    box-shadow: 1px 1px 10px 1px gray;
+    width: 500px;
+    margin-top: 5%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+}
 h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #tic-tac-toe-board {
-    justify-content:center;
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    gap: 2px;
-    margin: 20px auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 2px;
+  margin: 20px auto;
 }
 
 .cell {
-    width: 100px;
-    height: 100px;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e0e0e0;
-    cursor: pointer;
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px gray;
 }
 
 #result {
-    margin: 20px 0;
-    font-size: 20px;
-    font-weight: bold;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #reset-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #b33900;
+  color: white;
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 #reset-button:hover {
-    background-color: #0056b3;
+  background-color: #df4b06;
 }
