@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #222;
@@ -10,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .bg-container {
   background: url(https://images.unsplash.com/photo-1689878210212-de194e91a9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
   width: 100vw;
