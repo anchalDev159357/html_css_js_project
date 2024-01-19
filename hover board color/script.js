@@ -18,6 +18,7 @@ for (let i = 0; i < squares; i++) {
 
   container.appendChild(square);
 }
+
 function setColor(element) {
   const color = getRandomColor();
   element.style.background = color;
