@@ -4,17 +4,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://img.freepik.com/free-vector/abstract-pattern-design_1053-534.jpg?w=740&t=st=1697167104~exp=1697167704~hmac=8e3dde6626b6b24bc1a7a7b32b7d9c2e45718c0eec7800a78f1f9480569b8535');
-
+  background: url("https://img.freepik.com/free-vector/abstract-pattern-design_1053-534.jpg?w=740&t=st=1697167104~exp=1697167704~hmac=8e3dde6626b6b24bc1a7a7b32b7d9c2e45718c0eec7800a78f1f9480569b8535");
 }
 
 .container {
-    box-shadow: 1px 1px 10px 1px gray;
-    width: 500px;
-    margin-top: 5%;
-    border-radius: 10px;
-    position: relative;
-    background-color: #fff;
+  box-shadow: 1px 1px 10px 1px gray;
+  width: 500px;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fff;
 }
 h1 {
   font-size: 24px;
