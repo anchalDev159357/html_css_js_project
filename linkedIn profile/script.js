@@ -5,7 +5,7 @@ let int = setInterval(loading, 5);
 function loading() {
   load++;
   loader.innerText = `${load}`;
-  if (load > 1145) {
+  if (load > 10000) {
     clearInterval(int);
   }
 }
