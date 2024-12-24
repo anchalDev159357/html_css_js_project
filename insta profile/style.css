@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+}
+.mobile-container-size {
+  width: 300px;
+  height: 570px;
+  border: #b5b1b1ab solid 2px;
+}
+.head-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.color-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(to top, orange, yellow, red, #f43e5c, #c820d4);
+  border: 3.5px #fff solid;
+}
+.color-circle img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px #fff solid;
+}
+.profile-followers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.progress-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  line-height: 0;
+}
+.progress-details div {
+  margin-left: 10px;
+}
+.personal-details {
+  line-height: 0.5;
+  padding: 0 15px;
+}
+.personal-details p {
+  font-size: small;
+  color: gray;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 5px;
+}
+button {
+  height: 30px;
+  background-color: #b5b1b1ab;
+  border: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+img {
+  width: 96px;
+  height: 96px;
+}
+.footer-icons {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.posts {
+  margin-top: 2px;
+}
+.line {
+  background-color: #000;
+  width: 75px;
+  height: 1.7px;
+  margin-top: 15px;
+}

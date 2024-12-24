@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.first-bg {
+  background-color: aquamarine;
+  width: 100%;
+  height: 50vh;
+}
+.sec-bg {
+  background-color: rgb(255, 127, 165);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  cursor: pointer;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: -30px;
+  padding-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.home {
+  transform: translate(500%) rotate(100deg);
+  transition: transform 1s ease;
+}
+.about {
+  transform: translate(400%) rotate(80deg);
+  transition: transform 1.2s ease;
+}
+.contact {
+  transform: translate(300%) rotate(60deg);
+  transition: transform 1.3s ease;
+}
+.feedback {
+  transform: translate(200%) rotate(40deg);
+  transition: transform 1.3s ease;
+}
+.settings {
+  transform: translate(100%) rotate(20deg);
+  transition: transform 1.4s ease;
+}
+.menu {
+  transform: rotate(360deg);
+  transition: transform 1.5s ease;
+}
+
+.hidden {
+  display: none !important;
+}
+.close-tag {
+  cursor: pointer;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: -30px;
+  padding-top: 20px;
+  font-size: x-large;
+}
+.close-tag:hover{
+    background-color: red;
+    color: #fff;
+}
+.icons:hover{
+  background-color: #d4d4d4;
+}
+.icons:active{
+  transform: scale(0.97);
+}
+.close-tag:active{
+  transform: scale(0.98);
+}
+.menu:hover{
+  background-color: #fff;
+}

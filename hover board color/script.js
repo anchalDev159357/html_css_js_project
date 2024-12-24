@@ -9,7 +9,6 @@ const colors = [
   '#fff',
 ];
 const squares = 500;
-
 for (let i = 0; i < squares; i++) {
   const square = document.createElement("div");
   square.classList.add("square");
